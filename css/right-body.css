@@ -1,0 +1,22 @@
+.img-box{
+  position: relative;
+  top:100px;
+  height: 100%;
+  width: 100%;
+}
+.img-box img{
+  position: relative;
+  height: 70%;
+  width: calc(70% - 120px);
+  top: -100px;
+  right: 50px;
+  border-radius: 50%;
+
+}
+.cols1{
+  flex: 1;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

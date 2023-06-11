@@ -1,0 +1,77 @@
+.container{
+
+}
+.link{
+  display: flex;
+
+}
+.firstIcon{
+  width:33px;
+}
+.secondIcon{
+  width:30px;
+}
+.thirdIcon{
+  width:33px;
+}
+.forthIcon{
+  width:33px;
+}
+.navItem{
+display: flex;
+
+}
+.navItem li{
+  list-style: none;
+  margin-top: 0;
+  margin-right: 15px;
+}
+.logo{
+  display: flex;
+  font-size: 20px;
+  color: #3d535f;
+  letter-spacing: 2px;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  z-index: 100;
+}
+b {
+  color: plum;
+  font-weight: bold;
+  font-size: 40px;
+}
+.navItem li a {
+  text-decoration: none;
+  color: #3d535f;
+  font-weight: 900;
+}
+.navItem {
+  flex: 1;
+  max-width: 400px;
+}
+.first-list{
+  flex: 1;
+}
+.second-list{
+  flex: 1;
+}
+.third-list{
+  flex: 1;
+}
+.navItem li a:hover {
+  color: plum;
+}
+.link a{
+  font-size: 30px;
+  color: #3d535f;
+  margin: 25px 10px;
+}
