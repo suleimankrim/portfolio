@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: system-ui; /* Use the system's default font */
+}
+ul {
+  padding: 0;
+  margin-bottom: 4rem; /* Give as much space from the bottom as the form so it doesn't hide it */
+  list-style: inside; /* Move the bullet points inside with the background color */
+}
+li {
+  padding: 0.5rem 1rem;
+  font-size: 1.5em;
+}
+/* Alternating background colors */
+li:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+form {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.25rem;
+  /* Fix the form position to the bottom of the page */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  height: 4rem;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px); /* Glass-pane effect on any content it covers */
+  margin-bottom: 0; /* Remove the default margin to stick to the bottom of the page */
+}
+input {
+  border: none;
+  padding: 0 1.25rem;
+  margin: 0.25rem;
+  height: 3rem;
+  font-size: 1.5em;
+  flex-grow: 1; /* Take as much remaining space as possible */
+  border-radius: 2rem; /* Rounded corners */
+}
+form > button {
+  background: #333;
+  border: none;
+  padding: 0 1.5rem;
+  margin: 0.25rem 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+svg.send {
+  display: inline-block;
+  width: 2rem;
+  fill: white;
+  vertical-align: middle;
+}
+button > span {
+  /* To align the text with the icon inside the button */
+  vertical-align: middle;
+}
