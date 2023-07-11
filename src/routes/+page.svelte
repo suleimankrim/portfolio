@@ -10,7 +10,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section class="w-screen h-full bg-purple-300">
+<section class="w-screen h-[550px] bg-purple-300">
 	<h1 class="text-7xl text-white font-bold block text-center">I'm <span>A FrontEnd Dev.</span></h1>
 	<div class="grid grid-cols-2 gap-1">
 		<div class="h-full w-full pl-20 pt-9">

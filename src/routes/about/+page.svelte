@@ -3,7 +3,7 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="p-4 bg-purple-300 w-full h-full">
+<div class="p-4 bg-purple-300 w-full h-[550px]">
 	<h1 class="text-3xl font-bold mb-6">About Me</h1>
 	<div class="bg-gray-100 p-6 rounded-lg shadow-md">
 		<p class="text-lg mb-4">

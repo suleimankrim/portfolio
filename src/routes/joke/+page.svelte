@@ -15,7 +15,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section class="w-full h-full bg-purple-300 flex justify-center items-center">
+<section class="w-full h-[550px] bg-purple-300 flex justify-center items-center">
 	{#if data?.month}
 		<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
 			<img class="w-full" src={data.img} alt={data.alt} />
