@@ -13,16 +13,16 @@
 			</div>
 			<ul class="flex font-medium font-bold justify-around w-2/5">
 				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="/" class="hover:no-underline text-first hover:text-red-600">Home</a>
+					<a href="./" class="hover:no-underline text-first hover:text-red-600">Home</a>
 				</li>
 				<li aria-current={$page.url.pathname === '/joke' ? 'page' : undefined}>
 					<a
-						href="/joke"
+						href="./joke"
 						class="text-first hover:no-underline hover:text-red-600 hover:animate-bounce">Joke</a
 					>
 				</li>
 				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-					<a href="/about" class="text-first hover:no-underline hover:text-red-600">About</a>
+					<a href="./about" class="text-first hover:no-underline hover:text-red-600">About</a>
 				</li>
 			</ul>
 			<div class="flex w-1/6 justify-around">
