@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import { dev } from '$app/environment';
 
 /** @(type) {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,7 +14,7 @@ const config = {
 		adapter: adapter()
 	},
 	paths: {
-		base: dev ? '' : '/portfolio'
+		base: '/portfolio'
 	}
 };
 
