@@ -3,6 +3,7 @@
 	import github from '$lib/images/github.svg';
 	import facebook from '$lib/img/svg/facebook-svgrepo-com.svg';
 	import tweter from '$lib/img/svg/twitter-svgrepo-com.svg';
+	export const prerender = true;
 </script>
 
 <header>

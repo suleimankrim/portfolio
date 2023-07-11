@@ -1,13 +1,9 @@
 <script lang="ts">
-	import f from './main';
 	import { onMount } from 'svelte';
 	import type { Joke } from './(type)';
-
-	export let data: Joke;
-
-	onMount(async () => {
-		data = await f();
-	});
+	export let data;
+	console.log(data);
+	export const ssr = true;
 </script>
 
 <svelte:head>
@@ -16,14 +12,14 @@
 </svelte:head>
 
 <section class="w-full h-[550px] bg-purple-300 flex justify-center items-center">
-	{#if data?.month}
+	{#if data?.posts.month}
 		<div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-			<img class="w-full" src={data.img} alt={data.alt} />
+			<img class="w-full" src={data.posts.img} alt={data.posts.alt} />
 			<div class="px-6 py-4">
-				<div class="font-bold text-xl mb-2">{data.safe_title}</div>
+				<div class="font-bold text-xl mb-2">{data.posts.safe_title}</div>
 				<p class="text-gray-700 text-base">
-					Date: {data.month}
-					{data.day}, {data.year}
+					Date: {data.posts.month}
+					{data.posts.day}, {data.posts.year}
 				</p>
 			</div>
 		</div>

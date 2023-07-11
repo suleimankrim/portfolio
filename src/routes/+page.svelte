@@ -3,6 +3,7 @@
 	import Bio from './Bio.svelte';
 	import Project from './Project.svelte';
 	import Skill from './Skill.svelte';
+	export const ssr = true;
 </script>
 
 <svelte:head>

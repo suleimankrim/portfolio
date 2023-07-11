@@ -5,6 +5,7 @@
 	import facebook from '$lib/img/svg/facebook-svgrepo-com.svg';
 	import github from '$lib/images/github.svg';
 	import tweter from '$lib/img/svg/twitter-svgrepo-com.svg';
+	export const ssr = true;
 </script>
 
 <div class="h-screen w-screen overflow-hidden">
