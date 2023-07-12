@@ -1,8 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	import github from '$lib/images/github.svg';
-	import facebook from '$lib/img/svg/facebook-svgrepo-com.svg';
-	import tweter from '$lib/img/svg/twitter-svgrepo-com.svg';
+	import github from '../../static/github.svg';
+	import facebook from '../../static/img/svg/facebook-svgrepo-com.svg';
+	import tweter from '../../static/img/svg/twitter-svgrepo-com.svg';
 	export const prerender = true;
 </script>
 

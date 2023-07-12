@@ -1,8 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import type { Joke } from './(type)';
 	export let data;
-	console.log(data);
 	export const ssr = true;
 </script>
 

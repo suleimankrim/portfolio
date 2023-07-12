@@ -1,5 +1,5 @@
 <script>
-	import Sul from '../lib/img/avatar727185882.jpg';
+	import Sul from '../../static/img/avatar727185882.jpg';
 	import Bio from './Bio.svelte';
 	import Project from './Project.svelte';
 	import Skill from './Skill.svelte';
