@@ -2,9 +2,9 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import '../app.css';
-	import facebook from '../../static/img/svg/facebook-svgrepo-com.svg';
+	import facebook from '../img/svg/facebook-svgrepo-com.svg';
 	import github from '../../static/github.svg';
-	import tweter from '../../static/img/svg/twitter-svgrepo-com.svg';
+	import tweter from '../img/svg/twitter-svgrepo-com.svg';
 	export const prerender = true;
 	export const trailingSlash = 'always';
 </script>
