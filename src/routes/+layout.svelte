@@ -5,7 +5,8 @@
 	import facebook from '$lib/img/svg/facebook-svgrepo-com.svg';
 	import github from '$lib/images/github.svg';
 	import tweter from '$lib/img/svg/twitter-svgrepo-com.svg';
-	export const ssr = true;
+	export const prerender = true;
+	export const trailingSlash = 'always';
 </script>
 
 <div class="h-screen w-screen overflow-hidden">
